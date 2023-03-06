@@ -36,9 +36,13 @@ Enter valid email and password.
 Click the "Submit" button.
 
 - Logout User
+Navigate to http://localhost:3001/auth/logoutUser.
+Click on logout the user session will be expired.
+
 
 ### Features
 The customer wallet application has the following features:
 
-- Create Wallet: Users can create their single wallet.
-- Recharge Wallet: If wallet is already created then user can recharge the wallet.
+- Login User: Login a user with email and password. Session will be created.
+- Create User: User will be created with email and password.
+- Logout User: Current user will be expired.
